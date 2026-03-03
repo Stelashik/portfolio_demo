@@ -102,11 +102,34 @@ header {
 /* Projects Block */
 
 .projects nav ul {
-    list-style: none; 
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
 }
 
-.projects h3 {
-    font-family: "Roboto Flex";
+.project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    cursor: pointer;
+    text-align: left; 
+}
+
+.project-details {
+    display: none; 
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 0.5rem;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+}
+
+.project-details img {
+    width: 100%;
+    max-width: 350px; 
+    height: auto;
+    border-radius: 8px;
 }
 
 /* Skills Block */
@@ -197,17 +220,22 @@ footer span {
     }
 
     .projects nav ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column; 
         align-items: center; 
-        gap: 0.5rem;
-        padding: 0;
     }
 
-    .projects nav ul li h3 {
+    .project-title {
+        font-size: 1rem;
+        text-align: center; 
+    }
+
+    .project-details {
+        align-items: center;
         text-align: center;
         font-size: 1rem;
+    }
+
+    .project-details img {
+        max-width: 90%;
     }
 
     .skills {
