@@ -1,0 +1,103 @@
+/* Header */
+
+body {
+    margin: 20px;
+}
+
+header li {
+    font-size: 18px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;  
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none; 
+    display: inline-flex;
+    padding: 15px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* About Block */
+
+.about-me img {
+    width: 350px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    float: right;   
+}
+
+.about-text p {
+    font-size: 18px;
+}
+
+/* Contact Page */
+
+.info {
+    font-size: 20px;
+}
+
+.email,
+.github,
+.telegram {
+  display: flex;
+  align-items: center; 
+  gap: 15px;
+  margin: 15px;           
+}
+
+.email p,
+.github p,
+.telegram p {
+  margin: 0; 
+  font-size: 18px;          
+}
+
+.github img,
+.telegram img {
+  width: 24px;         
+  height: 24px;
+}
+
+/* Projects Block */
+
+.projects nav ul {
+    list-style: none; 
+}
+
+/* Skills Block */
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(97, 98, 99);
+    margin-top: 20px;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+footer span {
+    font-size: 18px;
+    color: white;
+}
